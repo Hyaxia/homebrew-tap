@@ -5,13 +5,13 @@
 class Blogwatcher < Formula
   desc "Track blog articles and detect new posts."
   homepage "https://github.com/Hyaxia/blogwatcher"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
   depends_on :linux
 
   if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-    url "https://github.com/Hyaxia/blogwatcher/releases/download/v0.0.1/blogwatcher_0.0.1_linux_amd64.tar.gz"
-    sha256 "65b3980fcb2c2a7fa6b74951f53804fce2b1df1f777df191f6ebbcc3bb5a6038"
+    url "https://github.com/Hyaxia/blogwatcher/releases/download/v0.0.2/blogwatcher_0.0.2_linux_amd64.tar.gz"
+    sha256 "98d7ce16b3832e144bfa3ca10c13d79aacbffc3292512408e55aa5fae89ba7e3"
     def install
       bin.install "blogwatcher"
     end
